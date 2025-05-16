@@ -1,0 +1,146 @@
+/* DARK MODE FIXO */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* Módulos (accordion simples) */
+
+.modulo {
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.modulo-titulo {
+  background-color: #272727;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+}
+
+.modulo-titulo:hover {
+  background-color: #333;
+}
+
+.modulo-conteudo {
+  display: none;
+  background-color: #151515;
+  padding: 1rem;
+  border-top: 1px solid #333;
+}
+
+.modulo-conteudo a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.modulo-conteudo a:hover {
+  text-decoration: underline;
+}
+
+.link-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.25rem 0 1rem;
+}
+
+.link-list li a {
+  color: #3fa9f5;
+  text-decoration: none;
+}
+
+.link-list li a:hover {
+  text-decoration: underline;
+}
+
+#portais-container {
+  margin-top: 1rem;
+}
+
+.descricao {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin: 0 0 12px 10px;
+  max-width: 600px; /* opcional, limita a largura */
+}
+
+#recomendacoes li {
+  margin-bottom: 0.5rem;
+}
+
+#recomendacoes h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1px;
+  margin-top: 0px;
+  color: #f0c674;
+}
+
+#recomendacoes ul {
+  margin-top: auto;
+}
+
+#recomendacoes {
+  background-color: #333;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+  border-radius: 5px;
+}
+
+.aviso-internacional {
+  color: #a0c4ff; /* azul claro que se destaca no dark mode sem ser berrante */
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+#legenda-icones {
+  background-color: #333;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+  border-radius: 5px;
+}
+
+#legenda-icones h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1px;
+  margin-top: 0px;
+  color: #fff;
+}
+
+#legenda-icones ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#legenda-icones li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
