@@ -150,6 +150,88 @@ const dadosPortais = [
       },
     ],
   },
+
+  {
+    titulo: 'Política e Governo',
+    nacional: [
+      {
+        nome: 'JOTA',
+        url: 'https://www.jota.info/',
+        sobre:
+          'Desde 2014, existimos para transformar a incerteza institucional do Brasil em inteligência estratégica para quem precisa tomar decisões com segurança. Acreditamos que a previsibilidade das instituições é essencial para o bom funcionamento dos negócios e para a estabilidade da economia. Foi com esse propósito que um grupo de jornalistas especializados na cobertura do Poder Judiciário fundou o JOTA, respondendo à crescente demanda por informação confiável, aprofundada e acionável sobre as movimentações do Estado brasileiro.',
+      },
+
+      {
+        nome: 'Poder360',
+        url: 'https://www.poder360.com.br/',
+        sobre:
+          'O Poder360 é um grupo de comunicação jornalística. Seu propósito é aperfeiçoar a democracia ao apurar a verdade dos fatos para informar e inspirar. O jornalismo do Poder360 acompanha assuntos do poder e da política a partir de Brasília. Há 3 eixos principais no que é publicado: poder, tecnologia e mídia.',
+      },
+
+      {
+        nome: 'Sul 21',
+        url: 'https://sul21.com.br/',
+        sobre:
+          'O Sul21 é um site de notícias independente, lançado em 2010 e, desde 2020, administrado coletivamente pelos profissionais envolvidos no dia a dia da redação. Nosso principal objetivo é produzir reportagens aprofundadas sobre temas relevantes e que nem sempre recebem espaço na mídia hegemônica.',
+      },
+    ],
+    internacional: [
+      {
+        nome: 'POLITICO',
+        url: 'https://www.politico.com/',
+        sobre:
+          'A POLITICO revela as forças que moldam o poder global. Desde 2007, fornecemos informações que antecipam as manchetes de amanhã, não apenas notícias de ontem. À medida que a política se torna cada vez mais a força definidora da nossa era, o nosso trabalho nunca foi tão vital.',
+      },
+
+      {
+        nome: 'Euractiv',
+        url: 'https://www.euractiv.com/',
+        sobre:
+          'A Euractiv é uma rede de mídia pan-europeia independente especializada em assuntos da UE, fundada por Christophe Leclercq em 1999. Sua cobertura jornalística é construtiva e crítica, acompanhando os processos políticos da UE desde a concepção até a implementação, bem como as notícias mais importantes nas capitais europeias e em outros continentes.',
+      },
+
+      {
+        nome: 'Voxeurop',
+        url: 'https://voxeurop.eu/',
+        sobre:
+          'Criado por jornalistas dos quatro cantos da Europa, o Voxeurop é um veículo de mídia online independente. É a primeira publicação do tipo a ser gerida por uma cooperativa de imprensa europeia. Somos uma comunidade de jornalistas, editores, tradutores, parceiros de mídia, leitores fiéis e membros de mais de 30 países.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Meio Ambiente & Sustentabilidade',
+    nacional: [
+      {
+        nome: 'InfoAmazonia',
+        url: 'https://infoamazonia.org/',
+        sobre:
+          'InfoAmazonia é um veículo jornalístico que combina dados, mapas e reportagens geolocalizadas para contar histórias sobre a maior floresta tropical contínua do planeta. Com uma visão sem fronteiras sobre a Amazônia, trabalhamos de forma colaborativa com jornalistas e veículos locais e internacionais, promovendo investigações inovadoras e aprofundadas sobre temas ambientais e sociais.',
+      },
+
+      {
+        nome: '((o))eco',
+        url: 'https://oeco.org.br/',
+        sobre:
+          '((o))eco é um veículo de jornalismo sem fins lucrativos fundado em 2004 que se dedica a documentar os desafios, retrocessos e avanços dos temas relacionados à conservação da natureza, biodiversidade e política ambiental no Brasil. O site nasceu a partir da visão de um ambientalista e um grupo de jornalistas que idealizaram um veículo de mídia pioneiro dedicado à cobertura de pautas ambientais no ambiente digital. Um jornalismo com a missão de dar voz aos bichos e plantas, através daqueles que se interessam em protegê-los.',
+      },
+    ],
+    internacional: [
+      {
+        nome: 'Mongabay',
+        url: 'https://news.mongabay.com/',
+        sobre:
+          'A Mongabay é uma organização de mídia independente e sem fins lucrativos que cobre a natureza e os desafios planetários por meio de uma rede global de jornalistas locais. A Mongabay atende a um público diverso ao oferecer acesso gratuito a notícias e informações em diversos idiomas e formatos, com o objetivo de reduzir lacunas de conhecimento e ampliar a transparência. Ao expor evidências da destruição de ecossistemas e suas consequências para pessoas em todo o mundo, a Mongabay cria oportunidades para responsabilizar os envolvidos.',
+      },
+
+      {
+        nome: 'Yale Environment 360',
+        url: 'https://e360.yale.edu/',
+        sobre:
+          'A Yale Environment 360 é uma revista online que oferece opinião, análise, reportagens e debates sobre questões ambientais globais. Publica artigos originais de cientistas, jornalistas, ambientalistas, acadêmicos, formuladores de políticas públicas e profissionais do setor empresarial, além de conteúdos multimídia e um boletim diário com as principais notícias ambientais.',
+      },
+    ],
+  },
 ];
 
 function criarModulo(modulo) {
