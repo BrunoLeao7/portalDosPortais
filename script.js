@@ -7,35 +7,35 @@ const dadosPortais = [
         nome: 'Agência Pública',
         url: 'https://apublica.org/',
         sobre:
-          'Fundada em 2011 por repórteres mulheres, a Pública é a primeira agência de jornalismo investigativo sem fins lucrativos do Brasil. Todas as nossas reportagens são feitas com base na rigorosa apuração dos fatos e têm como princípio a defesa intransigente dos direitos humanos.',
+          'Agência de jornalismo investigativo sem fins lucrativos, fundada em 2011, com foco em interesse público, direitos humanos, poder público, empresas, meio ambiente e populações vulneráveis.',
       },
 
       {
         nome: 'Agência Brasil - EBC',
         url: 'https://agenciabrasil.ebc.com.br/',
         sobre:
-          'A Empresa Brasil de Comunicação - EBC é a empresa pública brasileira que tem como missão garantir o direito humano à comunicação. Ela representa um projeto de país que valoriza a diversidade cultural, fomenta a cidadania e fortalece a democracia com informação acessível, cultura, arte e educação, combatendo a desinformação.',
+          'Agência pública de notícias vinculada à EBC, com foco em políticas públicas e cidadania, oferecendo cobertura jornalística factual, contextualizada e de serviço, com produção diária e versões em outros idiomas.',
       },
 
       {
         nome:'Repórter Brasil',
         url:'https://reporterbrasil.org.br/',
         sobre:
-          'A Repórter Brasil foi fundada em 2001 por jornalistas, cientistas sociais e educadores com o objetivo de fomentar a reflexão e ação sobre a violação aos direitos fundamentais dos povos e trabalhadores no Brasil.',
+          'Organização fundada em 2001 que produz jornalismo investigativo, pesquisas e conteúdos educacionais sobre direitos trabalhistas, trabalho escravo e impactos socioambientais, com foco em direitos humanos e interesse público.',
       },
 
       {
         nome:'Aos Fatos',
         url:'https://www.aosfatos.org/',
         sobre:
-          'Aos Fatos é uma organização jornalística dedicada ao combate à desinformação, à cobertura da tecnopolítica e à checagem de fatos. Foi ao ar pela primeira vez em 7 de julho de 2015 e alia tecnologia e investigação jornalística para informar sobre as mentiras que os poderosos contam, endossam e financiam.',
+          'Organização jornalística fundada em 2015 dedicada à checagem de fatos, ao combate à desinformação e à cobertura de tecnopolítica, unindo jornalismo investigativo e tecnologia com foco em interesse público e democracia.',
       },
 
       {
         nome: 'Nexo Jornal (Pago)',
         url: 'https://www.nexojornal.com.br/',
         sobre:
-          'O Nexo é um jornal digital criado em 2015 que oferece notícias aprofundadas e contextualizadas, com foco em dados e estatísticas. Cobre diversos temas de forma equilibrada, priorizando rigor e qualidade editorial.',
+          'Jornal digital independente lançado em 2015, focado em notícias aprofundadas e contextualizadas, com uso de dados, diferentes formatos digitais e compromisso com clareza, equilíbrio e transparência no debate público.',
       },
     ],
     internacional: [
@@ -43,35 +43,35 @@ const dadosPortais = [
         nome: 'Reuters',
         url: 'https://www.reuters.com',
         sobre:
-          'A Reuters, divisão de notícias da Thomson Reuters, é a maior provedora de notícias multimídia do mundo, alcançando bilhões de pessoas diariamente. Ela fornece notícias empresariais, financeiras, nacionais e internacionais para profissionais (via terminais de desktop), organizações de mídia globais, eventos do setor e diretamente ao público.',
+          'A Reuters fornece notícias empresariais, financeiras, nacionais e internacionais para profissionais (via terminais de desktop), organizações de mídia globais, eventos do setor e diretamente ao público.',
       },
 
       {
         nome: 'AP News',
         url: 'https://apnews.com/',
         sobre:
-          'A AP (Associated Press) permanece hoje a fonte mais confiável de notícias independentes, imparciais e factuais em todos os formatos e a provedora essencial de tecnologia e serviços indispensáveis para o setor de notícias.',
+          'Agência global de notícias independente e sem fins lucrativos, dedicada ao jornalismo factual, com atuação internacional e reinvestimento integral de seus recursos na produção jornalística.',
       },
 
       {
         nome:'BBC News',
         url:'https://www.bbc.com/news',
         sobre:
-          'Somos imparciais e independentes, e todos os dias criamos programas e conteúdos únicos e de alta qualidade que informam, educam e entretêm milhões de pessoas no Reino Unido e em todo o mundo.',
+          'Emissora pública britânica e organização global de mídia, conhecida pela produção de conteúdo jornalístico imparcial e independente, com atuação em TV, rádio e plataformas digitais, incluindo cobertura internacional em diversos idiomas.',
       },
 
       {
         nome:'The New York Times',
         url:'https://www.nytimes.com/international/',
         sobre:
-          'Nossa missão é buscar a verdade e ajudar as pessoas a compreenderem o mundo. Essa missão se fundamenta na nossa crença de que o bom jornalismo tem o poder de enriquecer e tornar mais plena a vida de cada leitor, e de fortalecer e tornar mais justa a sociedade como um todo.',
+          'Jornal internacional com cobertura global, focado em notícias factuais, reportagens especializadas, investigações aprofundadas e análises, com atuação em mais de 160 países e forte presença digital.',
       },
 
       {
         nome:'The Guardian',
         url:'https://www.theguardian.com/international',
         sobre:
-          'O Guardian Media Group é uma organização global de notícias que oferece jornalismo investigativo e destemido, dando voz aos marginalizados e responsabilizando o poder. Nossa estrutura de propriedade independente significa que somos totalmente livres de influências políticas e comerciais. Somente nossos valores determinam as histórias que escolhemos cobrir – de forma incansável e corajosa.',
+          'Jornal internacional de propriedade independente, com foco em reportagens investigativas, cobertura de política, meio ambiente, ciência e justiça social, e reinvestimento de seus recursos na produção jornalística.',
       },
     ],
   },
@@ -83,14 +83,14 @@ const dadosPortais = [
         nome: 'Revista Fapesp',
         url: 'https://revistapesquisa.fapesp.br/',
         sobre:
-          'Pesquisa FAPESP é a única revista jornalística especializada em cobrir a produção científica e tecnológica do Brasil. Por meio de reportagens, vídeos e podcasts, aborda resultados de pesquisa nacional, em todos os campos do conhecimento, que se destaquem por seu impacto intelectual, social ou econômico.',
+          'Revista jornalística especializada na cobertura da produção científica e tecnológica do Brasil, com reportagens, vídeos e podcasts sobre pesquisas de impacto intelectual, social e econômico.',
       },
 
       {
         nome:'Agência BORI',
         url:'https://abori.com.br/',
         sobre:
-          'A  Bori é um serviço único no Brasil que apoia a cobertura da imprensa de todo o país à luz de evidências científicas. Jornalistas encontram na Bori pesquisas inéditas de instituições brasileiras explicadas de diversas áreas como saúde, ambiente e economia acompanhadas do contato do/a porta-voz, além de  treinamentos em coberturas específicas e telefone celular de cientistas de diversas regiões do Brasil preparados para atender a imprensa.',
+          'Serviço fundado em 2020 que apoia a cobertura jornalística com base em evidências científicas, conectando jornalistas a pesquisas brasileiras, especialistas e treinamentos em áreas como saúde, meio ambiente e economia.',
       }
     ],
     internacional: [
@@ -98,14 +98,14 @@ const dadosPortais = [
         nome: 'Nature',
         url: 'https://www.nature.com/',
         sobre:
-          'O Nature Portfolio tem como objetivo servir à comunidade científica, publicando as descobertas mais relevantes, que ampliam o conhecimento e abordam os maiores desafios atuais da sociedade. Nossas revistas incluem pesquisa original, revisões, comentários críticos, notícias e análises.',
+          'Grupo internacional de publicações científicas que reúne revistas como Nature e outros periódicos especializados, com foco em pesquisas relevantes, análises, notícias e divulgação científica para a comunidade acadêmica global.',
       },
 
       {
         nome:'Science',
         url:'https://www.science.org/journal/science',
         sobre:
-          'Desde sua fundação em 1880, com o financiamento inicial de Thomas Edison, a revista Science tem estado no centro de importantes descobertas científicas. Hoje, a Science continua a publicar o melhor da pesquisa em todas as áreas da ciência, com artigos que figuram consistentemente entre os mais citados do mundo.',
+          'Família internacional de revistas científicas publicada pela AAAS, dedicada à divulgação de pesquisas de alto impacto em diversas áreas da ciência, com foco em descobertas relevantes, revisão por pares e acesso ao conhecimento científico.',
       },
     ],
   },
@@ -117,14 +117,14 @@ const dadosPortais = [
         nome: 'Tecnoblog',
         url: 'https://tecnoblog.net/',
         sobre:
-          'Hoje o TB é o maior site de tecnologia independente do Brasil, com uma equipe de mais de 30 pessoas que compartilham experiências, auxiliam as decisões de compra e ajudam as pessoas a usarem melhor a tecnologia.',
+          'Site brasileiro de tecnologia fundado em 2005, com cobertura independente sobre o setor, produção jornalística especializada, análises, notícias e conteúdos voltados a ajudar o público a entender e usar melhor a tecnologia.',
       },
 
       {
         nome: 'Manual do Usuário',
         url: 'https://manualdousuario.net/',
         sobre:
-          'O Manual do Usuário é um blog de tecnologia independente, criado e mantido pelo jornalista Rodrigo Ghedin. Aborda temas como tecnologias não comerciais, privacidade digital e assuntos pouco explorados pela mídia especializada. O site é opinativo, segue rigor jornalístico e adota a filosofia da slow web, sem foco em tempo real.',
+          'Blog independente de tecnologia criado em 2013, com textos opinativos e rigor jornalístico, focado em privacidade digital, tecnologias alternativas e reflexão crítica, seguindo a proposta de publicação sem urgência e fora do tempo real.',
       },
     ],
     internacional: [
@@ -132,21 +132,21 @@ const dadosPortais = [
         nome: 'Art Technica',
         url: 'https://arstechnica.com/',
         sobre:
-          'A Ars Technica tornou-se uma fonte confiável para notícias de tecnologia, análises de políticas tecnológicas, detalhamentos dos avanços científicos mais recentes, análises de gadgets, software, hardware e quase tudo o que existe entre as camadas de silício.',
+          'Site internacional de jornalismo de tecnologia fundado em 1998, conhecido por análises aprofundadas, reportagens técnicas, ciência, política tecnológica e reviews, com foco em precisão, contexto e público especializado.',
       },
 
       {
         nome: 'IEEE Spectrum',
         url: 'https://spectrum.ieee.org/',
         sobre:
-          'A IEEE Spectrum é uma revista de tecnologia premiada e a principal publicação do IEEE, a maior organização profissional do mundo dedicada à engenharia e às ciências aplicadas. Com raízes que remontam a 1884, o IEEE organiza conferências de pesquisa, publica periódicos de engenharia e é responsável por importantes padrões tecnológicos, incluindo, mais notavelmente, o Ethernet e o Wi-Fi.'
+          'Revista internacional de tecnologia publicada pelo IEEE, dedicada à cobertura de tendências e avanços em engenharia, ciência e tecnologia, com reportagens, análises e conteúdos explicativos para público técnico e geral.'
       },
 
       {
         nome: 'MIT Technology Review',
         url: 'https://www.technologyreview.com/',
         sobre:
-          'A MIT Technology Review é uma empresa de mídia independente de renome mundial, fundada no Instituto de Tecnologia de Massachusetts (MIT) em 1899. A MIT Technology Review oferece análises e insights que explicam as tecnologias mais recentes e seus impactos comerciais, sociais e políticos por meio de jornalismo premiado e eventos presenciais de alta qualidade. Nossa missão é capacitar nosso público com informações confiáveis ​​para que compreendam as tendências futuras em tecnologia e por que elas são importantes.'
+          'Publicação internacional fundada em 1899, ligada ao MIT, focada na análise de tecnologias emergentes e seus impactos sociais, econômicos e políticos, com jornalismo especializado e cobertura de inovação científica e tecnológica.'
       },
     ],
   },
@@ -158,21 +158,21 @@ const dadosPortais = [
         nome: 'JOTA',
         url: 'https://www.jota.info/',
         sobre:
-          'Desde 2014, existimos para transformar a incerteza institucional do Brasil em inteligência estratégica para quem precisa tomar decisões com segurança. Acreditamos que a previsibilidade das instituições é essencial para o bom funcionamento dos negócios e para a estabilidade da economia. Foi com esse propósito que um grupo de jornalistas especializados na cobertura do Poder Judiciário fundou o JOTA, respondendo à crescente demanda por informação confiável, aprofundada e acionável sobre as movimentações do Estado brasileiro.',
+          'Plataforma de jornalismo e inteligência institucional fundada em 2014, especializada na cobertura do Judiciário, política e regulação, com análises aprofundadas voltadas a decisões estratégicas no setor público e privado.',
       },
 
       {
         nome: 'Poder360',
         url: 'https://www.poder360.com.br/',
         sobre:
-          'O Poder360 é um grupo de comunicação jornalística. Seu propósito é aperfeiçoar a democracia ao apurar a verdade dos fatos para informar e inspirar. O jornalismo do Poder360 acompanha assuntos do poder e da política a partir de Brasília. Há 3 eixos principais no que é publicado: poder, tecnologia e mídia.',
+          'Grupo jornalístico brasileiro com foco na cobertura de poder, política, tecnologia e mídia, produzido a partir de Brasília, com conteúdos informativos, análises e pesquisas de opinião de interesse público.',
       },
 
       {
         nome: 'Sul 21',
         url: 'https://sul21.com.br/',
         sobre:
-          'O Sul21 é um site de notícias independente, lançado em 2010 e, desde 2020, administrado coletivamente pelos profissionais envolvidos no dia a dia da redação. Nosso principal objetivo é produzir reportagens aprofundadas sobre temas relevantes e que nem sempre recebem espaço na mídia hegemônica.',
+          'Site de notícias independente fundado em 2010, com foco em reportagens aprofundadas sobre direitos humanos, democracia, meio ambiente e pautas sociais, com atenção especial às comunidades locais e temas pouco abordados pela mídia tradicional',
       },
     ],
     internacional: [
@@ -180,21 +180,21 @@ const dadosPortais = [
         nome: 'POLITICO',
         url: 'https://www.politico.com/',
         sobre:
-          'A POLITICO revela as forças que moldam o poder global. Desde 2007, fornecemos informações que antecipam as manchetes de amanhã, não apenas notícias de ontem. À medida que a política se torna cada vez mais a força definidora da nossa era, o nosso trabalho nunca foi tão vital.',
+          'Veículo internacional fundado em 2007, especializado em política e políticas públicas, com foco em análises aprofundadas, bastidores do poder e inteligência estratégica para tomadores de decisão.',
       },
 
       {
         nome: 'Euractiv',
         url: 'https://www.euractiv.com/',
         sobre:
-          'A Euractiv é uma rede de mídia pan-europeia independente especializada em assuntos da UE, fundada por Christophe Leclercq em 1999. Sua cobertura jornalística é construtiva e crítica, acompanhando os processos políticos da UE desde a concepção até a implementação, bem como as notícias mais importantes nas capitais europeias e em outros continentes.',
+          'Veículo pan-europeu independente fundado em 1999, especializado na cobertura de políticas e instituições da União Europeia, com reportagens críticas e análises sobre economia, política e áreas regulatórias como energia, saúde, agricultura e tecnologia.',
       },
 
       {
         nome: 'Voxeurop',
         url: 'https://voxeurop.eu/',
         sobre:
-          'Criado por jornalistas dos quatro cantos da Europa, o Voxeurop é um veículo de mídia online independente. É a primeira publicação do tipo a ser gerida por uma cooperativa de imprensa europeia. Somos uma comunidade de jornalistas, editores, tradutores, parceiros de mídia, leitores fiéis e membros de mais de 30 países.',
+          'Veículo digital independente criado por jornalistas de diversos países europeus, organizado como uma cooperativa de imprensa, com foco em jornalismo transnacional e perspectivas europeias.',
       },
     ],
   },
@@ -206,14 +206,14 @@ const dadosPortais = [
         nome: 'InfoAmazonia',
         url: 'https://infoamazonia.org/',
         sobre:
-          'InfoAmazonia é um veículo jornalístico que combina dados, mapas e reportagens geolocalizadas para contar histórias sobre a maior floresta tropical contínua do planeta. Com uma visão sem fronteiras sobre a Amazônia, trabalhamos de forma colaborativa com jornalistas e veículos locais e internacionais, promovendo investigações inovadoras e aprofundadas sobre temas ambientais e sociais.',
+          'Veículo jornalístico sem fins lucrativos focado na cobertura da Amazônia, que combina dados, mapas e reportagens geolocalizadas para investigar temas ambientais e sociais de forma colaborativa e transnacional.',
       },
 
       {
         nome: '((o))eco',
         url: 'https://oeco.org.br/',
         sobre:
-          '((o))eco é um veículo de jornalismo sem fins lucrativos fundado em 2004 que se dedica a documentar os desafios, retrocessos e avanços dos temas relacionados à conservação da natureza, biodiversidade e política ambiental no Brasil. O site nasceu a partir da visão de um ambientalista e um grupo de jornalistas que idealizaram um veículo de mídia pioneiro dedicado à cobertura de pautas ambientais no ambiente digital. Um jornalismo com a missão de dar voz aos bichos e plantas, através daqueles que se interessam em protegê-los.',
+          'Veículo jornalístico sem fins lucrativos fundado em 2004, dedicado à cobertura de meio ambiente, biodiversidade e política ambiental no Brasil, com jornalismo independente focado na conservação da natureza.',
       },
     ],
     internacional: [
@@ -221,14 +221,14 @@ const dadosPortais = [
         nome: 'Mongabay',
         url: 'https://news.mongabay.com/',
         sobre:
-          'A Mongabay é uma organização de mídia independente e sem fins lucrativos que cobre a natureza e os desafios planetários por meio de uma rede global de jornalistas locais. A Mongabay atende a um público diverso ao oferecer acesso gratuito a notícias e informações em diversos idiomas e formatos, com o objetivo de reduzir lacunas de conhecimento e ampliar a transparência. Ao expor evidências da destruição de ecossistemas e suas consequências para pessoas em todo o mundo, a Mongabay cria oportunidades para responsabilizar os envolvidos.',
+          'Organização jornalística internacional e sem fins lucrativos dedicada à cobertura de meio ambiente e desafios planetários, com rede global de jornalistas locais e foco em ciência, transparência e impactos socioambientais.',
       },
 
       {
         nome: 'Yale Environment 360',
         url: 'https://e360.yale.edu/',
         sobre:
-          'A Yale Environment 360 é uma revista online que oferece opinião, análise, reportagens e debates sobre questões ambientais globais. Publica artigos originais de cientistas, jornalistas, ambientalistas, acadêmicos, formuladores de políticas públicas e profissionais do setor empresarial, além de conteúdos multimídia e um boletim diário com as principais notícias ambientais.',
+          'Revista digital publicada pela Yale School of the Environment, dedicada a análises, reportagens e debates sobre questões ambientais globais, com artigos de especialistas e jornalistas de diferentes áreas.',
       },
     ],
   },
